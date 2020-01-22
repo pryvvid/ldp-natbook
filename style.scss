@@ -1,0 +1,54 @@
+$blue-color-main: rgb(27, 132, 218);
+$blue-color-sec: rgb(34, 154, 252);
+$red-color-main: rgb(212, 46, 46);
+
+* {
+  font-family: Lato;
+}
+
+.inputNumber {
+  padding: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 5px solid $blue-color-main;
+  border-radius: 10px;
+}
+
+.queryButton {
+  padding: 5px 15px;
+  font-size: 16px;
+  font-family: Lato;
+  color: white;
+  background-color: $blue-color-main;
+  border: none;
+  border-radius: 15px;
+  transition: 0.6s ease-in-out;
+
+  &:hover { 
+    background-color: $blue-color-sec;
+    cursor: pointer;
+  }
+}
+
+.item-list {
+  margin: 0 5px;
+  padding: 0 10px;
+}
+
+.ldp-item {
+  padding: 5px 5px;
+  
+  &__input {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid $blue-color-main;
+    border-radius: 3px;
+  }
+}
+
+.queryText {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid $blue-color-main;
+  border-radius: 3px;
+}
